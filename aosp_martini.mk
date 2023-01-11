@@ -8,9 +8,6 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from martini device
-$(call inherit-product, device/oplus/martini/device.mk)
-
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
@@ -30,3 +27,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := OnePlus/OnePlus9RT/OP5155L1:13/TP1A.220624.014/R.202208300852:user/release-keys
+
+# Inherit from martini device
+$(call inherit-product, device/oplus/martini/device.mk)
