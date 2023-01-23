@@ -149,6 +149,7 @@ odm/lib64/libFaceBeautyPre.so
 odm/lib64/libFaceDistortionCorrection.so
 odm/lib64/libOGLManager.so
 odm/lib64/libOPLUS_SCPortrait.so
+odm/lib64/libPerfectColor.so
 odm/lib64/libPerfectlyClearCrux.so
 odm/lib64/libPerfectlyClearCruxOpt.so
 odm/lib64/libPolarrRender.so
@@ -165,6 +166,8 @@ odm/lib64/libVDUpScale.so
 odm/lib64/libVideoEnhance.so
 odm/lib64/libWaterMark.so
 odm/lib64/libWaterMode.so
+odm/lib64/libaisal.so
+odm/lib64/libaisd.so
 odm/lib64/lib_rectify.so
 odm/lib64/libancbase_segment.so
 odm/lib64/libaps_frame_registration.so
@@ -191,10 +194,6 @@ odm/lib64/libsnpe_dsp_domains_v3.so
 odm/lib64/libsnpe_htp.so
 odm/lib64/libsnpe_loader.so
 odm/lib64/libsnpeml.so
-odm/lib64/libstblur_api.so
-odm/lib64/libstblur_capture_api.so
-odm/lib64/libstface_fd_api.so
-odm/lib64/libstfd_mobile_api.so
 odm/lib64/libtriplecam_image_optical_zoom.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
@@ -351,13 +350,11 @@ odm/lib64/libarcsoft_low_light_hdr.so
 odm/lib64/libarcsoft_low_light_hdr_for_neon.so
 odm/lib64/libarcsoft_pic_best.so
 odm/lib64/libarcsoft_portraitSN_hvx_stub.so
-odm/lib64/libarcsoft_portrait_super_night_raw.so
 odm/lib64/libarcsoft_preview_antibanding.so
 odm/lib64/libarcsoft_qnnhtp.so
 odm/lib64/libarcsoft_scbokeh_video.so
 odm/lib64/libarcsoft_smart_denoise.so
 odm/lib64/libarcsoft_smart_denoise_v4.so
-odm/lib64/libarcsoft_super_night_raw.so
 odm/lib64/libarcsoft_triple_sat.so
 odm/lib64/libarcsoft_triple_zoomtranslator.so
 odm/lib64/libarcsoft_videoautozoom.so
